@@ -14,7 +14,21 @@ A lightweight script to generate a `proxy.txt` file containing fresh and working
    cd Free_Proxy_GenV2
    ```
 
-3. **Install the required dependencies**:
+3. **Create Virtualenv and use it**:
+    
+    **Linux** :
+    ```bash
+   python -m venv ./venv
+   source venv/bin/activate
+   ```
+
+   **Windows** :
+   ```bash
+   python -m venv ./venv
+   .\venv\Scripts\activate
+   ```
+
+4. **Install the required dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
